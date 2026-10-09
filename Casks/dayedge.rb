@@ -10,7 +10,7 @@ cask "dayedge" do
   desc "Menu-bar calendar, reminders, and meeting alerts"
   homepage "https://github.com/dayedge/dayedge"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "DayEdge.app"
 
