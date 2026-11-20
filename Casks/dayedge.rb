@@ -1,9 +1,9 @@
 cask "dayedge" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.2.0"
-  sha256 arm:   "2a4e69cb483ec66692581e6dbe43718fbc9e43c0b823f8e8618eb02a3e186e88",
-         intel: "116ae72e7e6cb70153fdf0a392286c88011af77dcd5f35477e35fa03a741cb90"
+  version "1.2.1"
+  sha256 arm:   "ac4b267c57647615fd68ee5f075a7a5305db579e0a64c99f18377e60dd2b131e",
+         intel: "7063f522d093b39b53f63df441101ef83a2490c07b3e56e35c383bc2f9c1774a"
 
   url "https://github.com/dayedge/dayedge/releases/download/v#{version}/DayEdge-#{version}-#{arch}.zip"
   name "DayEdge"
